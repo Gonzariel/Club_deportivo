@@ -141,7 +141,7 @@ app.get('/eliminar',(req,res)=>{
             if (err) {
                 return res.status(500).send(err);
             }
-            res.send("Precio de deporte modificado con éxito");
+            res.send("Deporte eliminado con exito");
         });
     });
 })
